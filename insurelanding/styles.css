@@ -1,0 +1,337 @@
+
+.newFont , .different , .bottomleft{
+    font-family: 'DM Serif Display', serif !important ;
+}
+body {
+    font-family: 'Karla', sans-serif;
+    outline: none im !important;
+}
+.container-fluid {
+    background-color: #ffffff;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    
+  
+}
+
+.wrapper { 
+     background-color:#2c2640 ;
+    overflow:hidden;
+  }
+  
+  .wrapper div {
+     min-height: 200px;
+     padding: 10px;
+  }
+  
+  .button {
+    background-color:#2c2640; /* Green */
+    border:#ffffff;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+  }
+  .famIMG {
+   
+    padding-left: 30px;
+    width: 400px;
+    z-index: 10;
+    top: #distance from top of page#
+    left: #distance from left of page#
+    
+  }
+  
+  @media screen and (max-width: 400px) {
+     #one { 
+      float: none;
+      margin-right:0;
+      width:auto;
+      border:0;
+      border-bottom:2px solid #000;    
+    }
+  }
+
+  * {
+    box-sizing: border-box;
+  }
+  
+  /* Create two equal columns that floats next to each other */
+  .column {
+    float: left;
+    width: 50%;
+    padding: 10px;
+    height: 300px; /* Should be removed. Only for demonstration */
+    color:#ffffff
+  }
+  
+  /* Clear floats after the columns */
+  .row:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+  @media screen and (max-width: 600px) {
+    .column {
+      width: 100%;
+    }
+  }  
+  .row {
+      background-color: #2c2640;
+  }
+ 
+ .ipsum , h1 , h2{
+     text-align: center;
+    
+ }
+
+ .ipsum{
+     padding-left: 20px;
+     padding-bottom: 20px;
+ }
+
+ .button {
+    border: 2px solid #ffffff; 
+    margin: 0 auto;
+    display: block;
+   
+  }
+  
+ .logo{
+     padding-top: 15px;
+     padding-left: 15px;
+    
+ }
+
+ .viewPlans {
+    border: 3px solid #000000; 
+    font-size: 12px;
+   
+ }
+.top3 {
+    color:#8e8c8f;
+    font-size: 12px;
+}
+
+.different{
+   color:#000000;
+   padding-top: 240px;
+   width: 50%;
+   text-align: center;
+   font-size: 36px;
+   padding-bottom: 50px;
+}
+
+* {
+    box-sizing: border-box;
+  }
+  
+  /* Create three equal columns that floats next to each other */
+  .columnSec2 {
+    float: left;
+    width: 33.33%;
+    padding-left: 10px;
+    height: 300px; /* Should be removed. Only for demonstration */
+    background-color: #ffffff;
+    padding-bottom: 30px;
+  }
+  
+  /* Clear floats after the columns */
+  .rowSec2:after {
+    content: "";
+    display: table;
+    clear: both;
+   
+  }
+
+  .bottom3 {
+      text-align: left;
+      padding-left: 30px;
+  }
+
+  .pbottom {
+      color: #acaaac;
+  }
+  
+  * {
+    box-sizing: border-box;
+  }
+  
+  /* Create two equal columns that floats next to each other */
+  .column3  {
+    float: left;
+    width: 55%;
+    background-color:#2c2640 ;
+    padding: 10px;
+    height: 150px; 
+    color:#ffffff;
+    padding-top: 30px;
+
+  }
+  .column3a  {
+    float: left;
+    width: 45%;
+    background-color:#2c2640 ;
+    padding: 10px;
+    height: 150px; 
+    color: #ffffff;
+    
+  }
+  
+  /* Clear floats after the columns */
+  .row3:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+  
+  /* Responsive layout - makes the two columns stack on top of each other instead of next to each other */
+  @media screen and (max-width: 600px) {
+    .column {
+      width: 100%;
+    }
+  }
+.row3 {
+    width:60%;
+    margin: 0 auto;
+    display: block;
+}
+
+
+.bottomleft{
+    text-align: left;
+}
+
+.pattern {
+    height:130px;
+    width: 130px;
+    float: right;
+}
+
+
+.button2 {
+    background-color: #2c2640  ; 
+    color:#ffffff; 
+    border: 2px solid #ffffff;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 12px;
+    margin: 4px 2px;
+    cursor: pointer;
+    
+  
+  /* Center vertically */
+  position: absolute;
+  top: 50%;
+  margin-top: -25px; 
+
+  }
+
+
+
+  /* Responsive layout - makes the three columns stack on top of each other instead of next to each other */
+  @media screen and (max-width: 600px) {
+    .column {
+      width: 100%;
+    }
+  }
+  @media screen and (max-width: 600px) {
+    .different {
+      padding-left: 160px;
+    }
+  }
+
+  @media only screen and (max-width: 1110px) {
+   img.pattern {
+      display: none;
+    }
+  }
+
+  @media only screen and (max-width: 700px) {
+   h2.bottomleft {
+      font-size: 20px;
+     }
+   }
+   
+   @media only screen and (max-width: 700px) {
+   .rowSec2 {
+       padding-left: none !important;
+      }
+    }
+
+    @media only screen and (max-width: 700px) {
+        .row3 {
+            padding-top: 60px !important;
+           }
+         }
+
+         @media only screen and (max-width: 700px) {
+            .button2 {
+                width: 80px;
+                    font-size: 8px;
+               }
+             }   
+    
+           
+.column3a {
+    position: relative;
+}
+
+
+.bottomBG {
+    background-color: #efeeee;
+    height: 200px;
+    padding-top: 30px;
+    border: none !important;
+}
+
+.bottomLogo {
+padding-left: 40px;
+}
+
+.logos {
+  float: right;
+  padding-right: 15px;
+}
+
+.filler {
+    background-color: #ffffff;
+    height: 100px;
+}
+
+.bottomPattern {
+    height: 120px;
+    width: 120px;
+    position:absolute;
+    z-index:0;
+}
+
+.rightBig  {
+    height: 220px;
+    width: 220px;
+    position:absolute;
+    float: right;
+}
+
+.bottomLine {
+    height: 1px;
+    text-align:left;
+    margin-left:0;
+  background-color:#939297;
+}
+
+.topLine {
+    height: 1px;
+    text-align:left;
+    margin-left:0;
+  background-color:#939297;
+  width: 150px;
+margin: auto;
+}
+
